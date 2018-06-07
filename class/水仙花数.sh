@@ -41,7 +41,7 @@ two(){
 two
 
 #####计算时间用####
-end=$(date +%s%N)  
+end=$(date +%s%N)   
 end_ms=${end:0:16}  
 echo "cost time is:"  
 echo "scale=6;($end_ms - $start_ms)/1000000" | bc  
